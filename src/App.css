@@ -1,0 +1,191 @@
+@import "../node_modules/bulma/css/bulma.min.css";
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* overrides */
+.navbar {
+  display: flex;
+  justify-content: center;
+  font-family: "Mali", cursive;
+}
+
+nav.navbar.is-success {
+  /*  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px; */
+}
+
+div.field.has-addons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.search-button .button.is-info {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.recycle-me-list .card {
+  margin: 1em;
+}
+
+li.menu-contact {
+  list-style: none;
+}
+
+div.content li {
+  list-style: none;
+  margin-left: 5px;
+}
+
+.top-section {
+  /* display: flex; */
+  justify-content: center;
+  z-index: 1;
+  margin-top: 21em;
+}
+.middle-section {
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-section {
+  display: flex;
+  justify-content: center;
+}
+
+.addresses {
+  margin-left: 2em;
+}
+div.card-content {
+  border: 1px solid green;
+  border-radius: 3%;
+  margin: 1em;
+}
+div.card {
+}
+
+.searchBar {
+  height: 40px;
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 5%;
+}
+
+li {
+  list-style: none;
+}
+.top-section img {
+  margin-left: 20px;
+}
+
+.checkbox {
+  margin-left: 5px;
+}
+.button.is-info {
+  margin-left: 5px;
+}
+.looking-to-recycle {
+  margin-left: 5px;
+}
+.compass-img:active {
+  box-shadow: 0 5px rgba(3, 0, 0, 0.014);
+  transform: translateY(4px);
+}
+.compass-img {
+  margin-left: 8px;
+}
+
+.checkbox-filter {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1em;
+}
+
+.button-div {
+  display: flex;
+  justify-content: center;
+  margin-right: 15px;
+}
+.info-img {
+  margin-right: 8px;
+}
+h1 {
+  margin-bottom: 10px;
+}
+.results {
+  margin-left: 5px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.more-details {
+  margin-left: 10px;
+}
+.information {
+  margin-left: 10px;
+}
+
+/* .background-img {
+  background-image: url("./dtsp.jpg");
+} */
+/* label {
+  color: white;
+} */
+/* .card {
+  background-color: rgba(0, 135, 245, 0.781);
+} */
+/* .content {
+  color: white;
+} */
+
+.mapWindow > div {
+  position: absolute;
+  border: 1px solid pink;
+  width: 100%;
+  height: 22em;
+}
+
+.details-page {
+  display: flex;
+}
+.navcall {
+  display: flex;
+  flex-direction: column;
+}
+
+.more-info {
+  margin-left: 5px;
+}
